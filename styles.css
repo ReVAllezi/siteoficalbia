@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9e6f7; /* Rosa claro para o fundo */
+}
+
+header {
+    background-color: #f48fb1; /* Rosa mais escuro para o cabeçalho */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #c2185b; /* Linha rosa mais escura na parte inferior */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #f48fb1; /* Rosa mais escuro para o rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #c2185b; /* Linha rosa mais escura na parte superior */
+}
+
+footer p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
